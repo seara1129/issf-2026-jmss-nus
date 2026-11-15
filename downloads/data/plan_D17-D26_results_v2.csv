@@ -1,0 +1,21 @@
+role,measure,period,n_low_leaves,n_high_leaves,low_mean,high_mean,low_minus_high (shape: distance),ci95_low,ci95_high,exact_p,smallest_detectable_80pct,verdict / note
+S2 secondary (picture),greenness (GCC),A  Days 2–10,6,6,0.48402,0.52816,-0.04414,-0.07679,-0.01149,0.0173,0.04556,
+S2 secondary (picture),greenness (GCC),B  Days 11–16,5,5,0.49278,0.49433,-0.00154,-0.0453,0.04222,0.9206,0.05824,
+M1 main,greenness (GCC),C  Days 17–26,7,7,0.46822,0.47415,-0.00593,-0.03038,0.01792,0.5944,0.03224,"NOT CONFIRMED: difference -0.0059, p = 0.5944"
+exploratory,size growth (% per day),A  Days 2–10,6,6,0.67852,0.90442,-0.2259,-1.50068,1.13308,0.6558,1.82665,
+exploratory,size growth (% per day),B  Days 11–16,5,5,0.99094,0.376,0.61494,-0.27531,1.57971,0.2302,1.221,
+S1 secondary,size growth (% per day),C  Days 17–26,7,7,0.19713,0.09124,0.10589,-0.77943,0.82852,0.8234,1.18884,
+exploratory,area growth (% per day),A  Days 2–10,6,6,1.20443,1.80994,-0.60551,-3.23959,2.19751,0.5779,3.95381,
+exploratory,area growth (% per day),B  Days 11–16,5,5,1.89843,0.70681,1.19163,-0.61836,3.08065,0.1984,2.40871,
+exploratory,area growth (% per day),C  Days 17–26,7,7,0.38821,0.2024,0.18581,-1.5282,1.51386,0.8718,2.36245,
+exploratory,roundness (computer outlines),A  Days 2–10,6,6,0.91747,0.93694,-0.01947,-0.06462,0.02776,0.3723,0.06534,
+exploratory,roundness (computer outlines),B  Days 11–16,5,5,0.92986,0.93812,-0.00826,-0.06406,0.0604,0.7698,0.09,
+exploratory,roundness (computer outlines),C  Days 17–26,5,5,0.90586,0.95069,-0.04483,-0.11579,0.01033,0.1508,0.08932,
+M2 main,shape: Procrustes distance between tank averages,Days 2-26,8,10,,,0.02287,0.01717,0.04311,0.2806,0.02851,NOT CONFIRMED: upper end 0.0431 >= limit 0.03; a difference that large cannot be ruled out
+exploratory,shape: Procrustes distance between tank averages,A  Days 2–10,6,6,,,0.04026,0.0273,0.06012,0.0108,,
+exploratory,shape: Procrustes distance between tank averages,B  Days 11–16,5,5,,,0.02725,0.01645,0.05743,0.3889,,
+exploratory,shape: Procrustes distance between tank averages,C  Days 17–26,7,7,,,0.02573,0.01988,0.0467,0.2547,,
+exploratory (inclusion check),shape: Procrustes distance between tank averages,"A  Days 2–10, every leaf",9,8,,,0.01548,0.01309,0.04184,0.8153,,same period counting every leaf (also those with 1-2 photos): the period A shape result depends on which leaves are counted
+S2 secondary (picture),colour gap ordering C < A < B (most negative = biggest gap),"A, B, C",,,,,,,,,,"not as predicted: A -0.0441, B -0.0015, C -0.0059; humidity gaps A 36.7, B 28.1, C 41.3 points"
+S3 secondary (picture),"roundness change Days 11-16 -> 17-26, Low tank",B to C,3,,,,-0.00051,,,,,"picture only, no p-value (plan): L02 +0.0001, L08 -0.0023, L09 +0.0007"
+S3 secondary (picture),"roundness change Days 11-16 -> 17-26, High tank",B to C,,3,,,-0.00262,,,,,"picture only, no p-value (plan): L01 -0.0026, L04 +0.0026, L11 -0.0079"

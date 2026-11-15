@@ -1,0 +1,264 @@
+ID,condition,leaf,tag,day,first_day_of_leaf,days_since_first_photo,original_leaf,image,centroid_size_px,centroid_size_mm,source_file,scale_source
+mh_L01_D01,mh,L01,red,1,1,0,yes,L01_D01_mh.jpg,1716.4,53.49,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L01_D02,mh,L01,red,2,1,1,yes,L01_D02_mh.jpg,2575.8,55.37,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L01_D03,mh,L01,red,3,1,2,yes,L01_D03_mh.jpg,2944.5,54.91,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D01,mh,L02,yellow,1,1,0,yes,L02_D01_mh.jpg,2312.6,52.77,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D02,mh,L02,yellow,2,1,1,yes,L02_D02_mh.jpg,2535.4,55.08,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D03,mh,L02,yellow,3,1,2,yes,L02_D03_mh.jpg,3084.0,54.54,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D04,mh,L02,yellow,4,1,3,yes,L02_D04_mh.jpg,2282.5,53.50,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D05,mh,L02,yellow,5,1,4,yes,L02_D05_mh.jpg,3136.2,54.56,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct (2nd attempt)
+mh_L02_D06,mh,L02,yellow,6,1,5,yes,L02_D06_mh.jpg,2581.8,56.00,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D07,mh,L02,yellow,7,1,6,yes,L02_D07_mh.jpg,1441.7,57.81,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D08,mh,L02,yellow,8,1,7,yes,L02_D08_mh.jpg,2606.4,56.24,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D09,mh,L02,yellow,9,1,8,yes,L02_D09_mh.jpg,2236.1,58.13,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D10,mh,L02,yellow,10,1,9,yes,L02_D10_mh.jpg,2558.7,58.31,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L03_D01,mh,L03,green,1,1,0,yes,L03_D01_mh.jpg,3221.7,54.80,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L03_D02,mh,L03,green,2,1,1,yes,L03_D02_mh.jpg,3290.4,53.37,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L03_D03,mh,L03,green,3,1,2,yes,L03_D03_mh.jpg,2367.4,53.85,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L04_D01,mh,L04,white,1,1,0,yes,L04_D01_mh.jpg,2367.6,59.95,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L04_D02,mh,L04,white,2,1,1,yes,L04_D02_mh.jpg,2211.6,59.75,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L04_D03,mh,L04,white,3,1,2,yes,L04_D03_mh.jpg,2798.6,60.27,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L04_D04,mh,L04,white,4,1,3,yes,L04_D04_mh.jpg,2330.2,59.60,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L04_D05,mh,L04,white,5,1,4,yes,L04_D05_mh.jpg,2778.5,57.81,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L04_D06,mh,L04,white,6,1,5,yes,L04_D06_mh.jpg,2593.9,57.99,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L05_D01,mh,L05,black,1,1,0,yes,L05_D01_mh.jpg,2549.8,56.39,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L05_D02,mh,L05,black,2,1,1,yes,L05_D02_mh.jpg,2567.0,53.50,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L05_D03,mh,L05,black,3,1,2,yes,L05_D03_mh.jpg,2171.6,52.05,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L06_D04,mh,L06,brown,4,4,0,no (replacement),L06_D04_mh.jpg,2546.2,55.22,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L06_D05,mh,L06,brown,5,4,1,no (replacement),L06_D05_mh.jpg,2535.2,53.72,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L06_D06,mh,L06,brown,6,4,2,no (replacement),L06_D06_mh.jpg,2224.2,52.38,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L06_D07,mh,L06,brown,7,4,3,no (replacement),L06_D07_mh.jpg,2183.1,54.73,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L06_D08,mh,L06,brown,8,4,4,no (replacement),L06_D08_mh.jpg,1835.3,56.15,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L06_D09,mh,L06,brown,9,4,5,no (replacement),L06_D09_mh.jpg,2509.1,55.04,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L06_D10,mh,L06,brown,10,4,6,no (replacement),L06_D10_mh.jpg,2650.7,55.44,mh-sh_L01-L11_D01-D16_combined_v5.tps,re-measured 7 Oct (2nd attempt)
+mh_L07_D04,mh,L07,pen,4,4,0,no (replacement),L07_D04_mh.jpg,2202.0,55.92,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L07_D05,mh,L07,pen,5,4,1,no (replacement),L07_D05_mh.jpg,2702.5,59.84,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L07_D06,mh,L07,pen,6,4,2,no (replacement),L07_D06_mh.jpg,2357.8,61.10,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L07_D07,mh,L07,pen,7,4,3,no (replacement),L07_D07_mh.jpg,2421.1,60.81,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L07_D08,mh,L07,pen,8,4,4,no (replacement),L07_D08_mh_v2.jpg,2632.7,62.55,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L07_D09,mh,L07,pen,9,4,5,no (replacement),L07_D09_mh.jpg,2339.4,61.48,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L07_D10,mh,L07,pen,10,4,6,no (replacement),L07_D10_mh.jpg,2144.2,61.11,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L08_D04,mh,L08,pencil,4,4,0,no (replacement),L08_D04_mh.jpg,1740.3,43.30,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L08_D05,mh,L08,pencil,5,4,1,no (replacement),L08_D05_mh.jpg,2156.0,45.34,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L08_D06,mh,L08,pencil,6,4,2,no (replacement),L08_D06_mh.jpg,2233.7,47.34,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L08_D07,mh,L08,pencil,7,4,3,no (replacement),L08_D07_mh.jpg,2132.8,48.63,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L08_D08,mh,L08,pencil,8,4,4,no (replacement),L08_D08_mh.jpg,2492.3,47.63,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L08_D09,mh,L08,pencil,9,4,5,no (replacement),L08_D09_mh.jpg,2324.0,48.52,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L08_D10,mh,L08,pencil,10,4,6,no (replacement),L08_D10_mh.jpg,2201.4,48.87,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L09_D07,mh,L09,blue,7,7,0,no (replacement),L09_D07_mh.jpg,1963.5,49.67,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L09_D08,mh,L09,blue,8,7,1,no (replacement),L09_D08_mh.jpg,2249.9,49.06,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L09_D09,mh,L09,blue,9,7,2,no (replacement),L09_D09_mh.jpg,2345.8,50.43,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L09_D10,mh,L09,blue,10,7,3,no (replacement),L09_D10_mh.jpg,2523.1,50.26,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D01,sh,L01,red,1,1,0,yes,L01_D01_sh.jpg,2333.8,53.64,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D02,sh,L01,red,2,1,1,yes,L01_D02_sh.jpg,1677.6,53.31,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D03,sh,L01,red,3,1,2,yes,L01_D03_sh.jpg,2047.9,53.22,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D04,sh,L01,red,4,1,3,yes,L01_D04_sh.jpg,2144.8,56.87,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D05,sh,L01,red,5,1,4,yes,L01_D05_sh.jpg,2331.0,57.20,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D06,sh,L01,red,6,1,5,yes,L01_D06_sh.jpg,2308.7,59.54,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D07,sh,L01,red,7,1,6,yes,L01_D07_sh.jpg,1759.5,58.77,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D08,sh,L01,red,8,1,7,yes,L01_D08_sh.jpg,2699.7,58.18,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L01_D09,sh,L01,red,9,1,8,yes,L01_D09_sh.jpg,3169.4,61.10,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L02_D01,sh,L02,yellow,1,1,0,yes,L02_D01_sh.jpg,1992.5,51.90,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L02_D02,sh,L02,yellow,2,1,1,yes,L02_D02_sh.jpg,2331.7,54.34,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L02_D03,sh,L02,yellow,3,1,2,yes,L02_D03_sh.jpg,2508.9,56.61,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L03_D01,sh,L03,green,1,1,0,yes,L03_D01_sh.jpg,1817.6,54.72,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L03_D02,sh,L03,green,2,1,1,yes,L03_D02_sh.jpg,2517.9,56.15,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L03_D03,sh,L03,green,3,1,2,yes,L03_D03_sh.jpg,2307.4,56.20,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L03_D04,sh,L03,green,4,1,3,yes,L03_D04_sh.jpg,1877.4,58.10,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D01,sh,L04,white,1,1,0,yes,L04_D01_sh.jpg,1968.2,42.13,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D02,sh,L04,white,2,1,1,yes,L04_D02_sh.jpg,2557.5,44.30,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D03,sh,L04,white,3,1,2,yes,L04_D03_sh.jpg,2588.8,47.15,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D04,sh,L04,white,4,1,3,yes,L04_D04_sh.jpg,2287.3,48.19,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D05,sh,L04,white,5,1,4,yes,L04_D05_sh.jpg,2450.4,47.99,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D06,sh,L04,white,6,1,5,yes,L04_D06_sh.jpg,2161.9,50.33,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D07,sh,L04,white,7,1,6,yes,L04_D07_sh.jpg,2127.2,49.16,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D08,sh,L04,white,8,1,7,yes,L04_D08_sh.jpg,2015.8,48.07,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L04_D09,sh,L04,white,9,1,8,yes,L04_D09_sh.jpg,2049.3,50.02,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L05_D01,sh,L05,black,1,1,0,yes,L05_D01_sh.jpg,2415.7,48.30,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L05_D02,sh,L05,black,2,1,1,yes,L05_D02_sh.jpg,2047.1,50.41,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L05_D03,sh,L05,black,3,1,2,yes,L05_D03_sh.jpg,2147.2,53.52,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L05_D04,sh,L05,black,4,1,3,yes,L05_D04_sh.jpg,2310.1,53.22,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L05_D05,sh,L05,black,5,1,4,yes,L05_D05_sh.jpg,2351.0,54.13,mh-sh_L01-L11_D01-D16_combined_v5.tps,re-measured 7 Oct
+sh_L05_D06,sh,L05,black,6,1,5,yes,L05_D06_sh.jpg,2063.8,56.85,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L05_D07,sh,L05,black,7,1,6,yes,L05_D07_sh.jpg,1682.2,58.77,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L05_D08,sh,L05,black,8,1,7,yes,L05_D08_sh.jpg,2277.8,55.87,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L05_D09,sh,L05,black,9,1,8,yes,L05_D09_sh.jpg,2995.7,56.95,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L06_D04,sh,L06,brown,4,4,0,no (replacement),L06_D04_sh.jpg,2010.7,47.01,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L06_D05,sh,L06,brown,5,4,1,no (replacement),L06_D05_sh.jpg,2534.2,46.91,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L06_D06,sh,L06,brown,6,4,2,no (replacement),L06_D06_sh.jpg,1940.7,47.63,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L06_D07,sh,L06,brown,7,4,3,no (replacement),L06_D07_sh.jpg,1896.4,49.62,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L06_D08,sh,L06,brown,8,4,4,no (replacement),L06_D08_sh.jpg,1975.3,49.61,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L06_D09,sh,L06,brown,9,4,5,no (replacement),L06_D09_sh.jpg,2358.1,49.72,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L09_D05,sh,L09,blue,5,5,0,no (replacement),L09_D05_sh.jpg,2355.4,53.15,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L09_D06,sh,L09,blue,6,5,1,no (replacement),L09_D06_sh.jpg,1548.1,54.34,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L09_D07,sh,L09,blue,7,5,2,no (replacement),L09_D07_sh.jpg,2802.9,52.74,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L09_D08,sh,L09,blue,8,5,3,no (replacement),L09_D08_sh.jpg,2263.9,51.44,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+sh_L10_D09,sh,L10,aqua,9,9,0,no (replacement),L10_D09_sh.jpg,1916.1,37.43,mh-sh_L01-L10_D01-D10_combined_v3.tps,re-measured 7 Oct
+mh_L02_D11,mh,L02,yellow,11,1,10,yes,L02_D11_mh.jpg,2439.7,62.69,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L02_D12,mh,L02,yellow,12,1,11,yes,L02_D12_mh.jpg,2731.9,61.94,mh-sh_L01-L11_D01-D16_combined_v4.tps,hand 10 Oct
+mh_L02_D13,mh,L02,yellow,13,1,12,yes,L02_D13_mh.jpg,2548.1,65.1,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L02_D14,mh,L02,yellow,14,1,13,yes,L02_D14_mh.jpg,3161.0,66.15,mh-sh_L01-L11_D01-D16_combined_v5.tps,hand 10 Oct
+mh_L02_D15,mh,L02,yellow,15,1,14,yes,L02_D15_mh.jpg,3069.5,68.03,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L02_D16,mh,L02,yellow,16,1,15,yes,L02_D16_mh.jpg,2498.3,67.96,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L06_D11,mh,L06,brown,11,4,7,no (replacement),L06_D11_mh.jpg,2121.7,55.0,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L06_D12,mh,L06,brown,12,4,8,no (replacement),L06_D12_mh.jpg,2188.0,54.34,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L06_D13,mh,L06,brown,13,4,9,no (replacement),L06_D13_mh.jpg,1803.5,55.39,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L06_D14,mh,L06,brown,14,4,10,no (replacement),L06_D14_mh.jpg,2404.1,55.53,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L06_D15,mh,L06,brown,15,4,11,no (replacement),L06_D15_mh.jpg,2839.9,56.0,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L06_D16,mh,L06,brown,16,4,12,no (replacement),L06_D16_mh.jpg,2945.3,54.6,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L07_D11,mh,L07,pen,11,4,7,no (replacement),L07_D11_mh.jpg,2540.3,59.8,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L07_D12,mh,L07,pen,12,4,8,no (replacement),L07_D12_mh.jpg,2443.7,60.48,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L07_D13,mh,L07,pen,13,4,9,no (replacement),L07_D13_mh.jpg,2285.3,60.62,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L07_D14,mh,L07,pen,14,4,10,no (replacement),L07_D14_mh.jpg,2291.1,60.57,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L07_D15,mh,L07,pen,15,4,11,no (replacement),L07_D15_mh.jpg,2979.9,61.11,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L07_D16,mh,L07,pen,16,4,12,no (replacement),L07_D16_mh.jpg,2073.3,60.2,mh-sh_L01-L11_D01-D16_combined_v5.tps,automatic (grid lines)
+mh_L08_D11,mh,L08,pencil,11,4,7,no (replacement),L08_D11_mh.jpg,2158.0,51.55,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L08_D12,mh,L08,pencil,12,4,8,no (replacement),L08_D12_mh.jpg,2498.8,53.23,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L08_D13,mh,L08,pencil,13,4,9,no (replacement),L08_D13_mh.jpg,2422.4,55.13,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L08_D14,mh,L08,pencil,14,4,10,no (replacement),L08_D14_mh.jpg,2348.9,54.84,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L08_D15,mh,L08,pencil,15,4,11,no (replacement),L08_D15_mh.jpg,2241.1,56.21,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L08_D16,mh,L08,pencil,16,4,12,no (replacement),L08_D16_mh.jpg,2247.1,56.36,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L09_D11,mh,L09,blue,11,7,4,no (replacement),L09_D11_mh.jpg,2195.6,50.26,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L09_D12,mh,L09,blue,12,7,5,no (replacement),L09_D12_mh.jpg,2222.7,54.63,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L09_D13,mh,L09,blue,13,7,6,no (replacement),L09_D13_mh.jpg,2135.5,51.55,mh-sh_L01-L11_D01-D16_combined_v4.tps,hand 10 Oct
+mh_L09_D14,mh,L09,blue,14,7,7,no (replacement),L09_D14_mh.jpg,2172.8,52.51,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L09_D15,mh,L09,blue,15,7,8,no (replacement),L09_D15_mh.jpg,3065.0,53.32,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L09_D16,mh,L09,blue,16,7,9,no (replacement),L09_D16_mh_v2.jpg,2105.6,54.05,mh-sh_L01-L11_D01-D16_combined_v5.tps,automatic (grid lines)
+sh_L01_D10,sh,L01,red,10,1,9,yes,L01_D10_sh.jpg,2370.0,60.42,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L01_D11,sh,L01,red,11,1,10,yes,L01_D11_sh.jpg,1887.1,60.69,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L01_D12,sh,L01,red,12,1,11,yes,L01_D12_sh.jpg,2591.9,60.61,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L01_D13,sh,L01,red,13,1,12,yes,L01_D13_sh.jpg,2316.6,60.47,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L01_D14,sh,L01,red,14,1,13,yes,L01_D14_sh.jpg,2565.4,60.63,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L01_D15,sh,L01,red,15,1,14,yes,L01_D15_sh.jpg,2868.4,61.18,mh-sh_L01-L11_D01-D16_combined_v4.tps,hand 10 Oct
+sh_L01_D16,sh,L01,red,16,1,15,yes,L01_D16_sh.jpg,2421.2,61.21,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L04_D10,sh,L04,white,10,1,9,yes,L04_D10_sh.jpg,2205.1,49.48,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L04_D11,sh,L04,white,11,1,10,yes,L04_D11_sh_v2.jpg,2512.2,48.92,v5_with_L04_D11_v2.tps,hand 18 Oct
+sh_L04_D12,sh,L04,white,12,1,11,yes,L04_D12_sh.jpg,2085.4,49.83,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L04_D13,sh,L04,white,13,1,12,yes,L04_D13_sh.jpg,2258.4,49.98,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L04_D14,sh,L04,white,14,1,13,yes,L04_D14_sh.jpg,2121.3,50.14,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L04_D15,sh,L04,white,15,1,14,yes,L04_D15_sh.jpg,2341.5,51.06,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L04_D16,sh,L04,white,16,1,15,yes,L04_D16_sh.jpg,1555.9,50.65,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L05_D10,sh,L05,black,10,1,9,yes,L05_D10_sh.jpg,2663.0,57.46,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L05_D11,sh,L05,black,11,1,10,yes,L05_D11_sh.jpg,2437.6,57.16,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L05_D12,sh,L05,black,12,1,11,yes,L05_D12_sh.jpg,2312.4,57.77,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L05_D13,sh,L05,black,13,1,12,yes,L05_D13_sh.jpg,2134.8,57.91,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L05_D14,sh,L05,black,14,1,13,yes,L05_D14_sh.jpg,2457.2,58.54,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L05_D15,sh,L05,black,15,1,14,yes,L05_D15_sh.jpg,2330.5,57.74,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L05_D16,sh,L05,black,16,1,15,yes,L05_D16_sh.jpg,2531.3,57.71,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L06_D10,sh,L06,brown,10,4,6,no (replacement),L06_D10_sh.jpg,1946.2,48.1,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L06_D11,sh,L06,brown,11,4,7,no (replacement),L06_D11_sh.jpg,1995.7,48.58,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L06_D12,sh,L06,brown,12,4,8,no (replacement),L06_D12_sh.jpg,1852.6,49.1,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L06_D13,sh,L06,brown,13,4,9,no (replacement),L06_D13_sh.jpg,1892.2,50.02,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L06_D14,sh,L06,brown,14,4,10,no (replacement),L06_D14_sh.jpg,1804.6,49.38,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L06_D15,sh,L06,brown,15,4,11,no (replacement),L06_D15_sh.jpg,2122.6,49.62,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L06_D16,sh,L06,brown,16,4,12,no (replacement),L06_D16_sh.jpg,2186.9,49.9,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L10_D10,sh,L10,aqua,10,9,1,no (replacement),L10_D10_sh.jpg,1660.3,37.55,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L10_D11,sh,L10,aqua,11,9,2,no (replacement),L10_D11_sh.jpg,1801.9,37.8,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L11_D12,sh,L11,orange,12,12,0,no (replacement),L11_D12_sh.jpg,2464.7,65.42,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L11_D13,sh,L11,orange,13,12,1,no (replacement),L11_D13_sh.jpg,2005.9,66.16,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L11_D14,sh,L11,orange,14,12,2,no (replacement),L11_D14_sh.jpg,2252.1,65.77,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L11_D15,sh,L11,orange,15,12,3,no (replacement),L11_D15_sh.jpg,2392.1,65.09,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+sh_L11_D16,sh,L11,orange,16,12,4,no (replacement),L11_D16_sh.jpg,2431.6,67.14,mh-sh_L01-L11_D01-D16_combined_v4.tps,automatic (grid lines)
+mh_L02_D17,mh,L02,yellow,17,1,16,yes,L02_D17_mh.jpg,2885.4,69.88,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D18,mh,L02,yellow,18,1,17,yes,L02_D18_mh.jpg,2618.8,68.68,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D19,mh,L02,yellow,19,1,18,yes,L02_D19_mh.jpg,2709.0,69.08,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D20,mh,L02,yellow,20,1,19,yes,L02_D20_mh.jpg,2854.2,69.26,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D21,mh,L02,yellow,21,1,20,yes,L02_D21_mh.jpg,3010.6,70.13,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D22,mh,L02,yellow,22,1,21,yes,L02_D22_mh.jpg,3308.6,69.39,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D23,mh,L02,yellow,23,1,22,yes,L02_D23_mh.jpg,3419.2,71.48,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D24,mh,L02,yellow,24,1,23,yes,L02_D24_mh.jpg,2974.3,70.14,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D25,mh,L02,yellow,25,1,24,yes,L02_D25_mh.jpg,3069.6,70.48,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L02_D26,mh,L02,yellow,26,1,25,yes,L02_D26_mh.jpg,2788.3,69.98,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L06_D17,mh,L06,brown,17,4,13,no (replacement),L06_D17_mh.jpg,2358.4,55.13,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L06_D18,mh,L06,brown,18,4,14,no (replacement),L06_D18_mh.jpg,2916.3,55.41,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L06_D19,mh,L06,brown,19,4,15,no (replacement),L06_D19_mh.jpg,2647.9,54.64,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L06_D20,mh,L06,brown,20,4,16,no (replacement),L06_D20_mh.jpg,2696.0,54.71,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L06_D21,mh,L06,brown,21,4,17,no (replacement),L06_D21_mh.jpg,2814.3,54.27,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L07_D17,mh,L07,pen,17,4,13,no (replacement),L07_D17_mh.jpg,2186.2,59.98,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L07_D18,mh,L07,pen,18,4,14,no (replacement),L07_D18_mh.jpg,3403.1,61.24,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L07_D19,mh,L07,pen,19,4,15,no (replacement),L07_D19_mh.jpg,2596.5,60.52,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L07_D20,mh,L07,pen,20,4,16,no (replacement),L07_D20_mh.jpg,2465.4,60.73,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L07_D21,mh,L07,pen,21,4,17,no (replacement),L07_D21_mh.jpg,2440.7,60.93,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D17,mh,L08,pencil,17,4,13,no (replacement),L08_D17_mh.jpg,2354.6,56.16,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D18,mh,L08,pencil,18,4,14,no (replacement),L08_D18_mh.jpg,2576.1,57.5,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D19,mh,L08,pencil,19,4,15,no (replacement),L08_D19_mh.jpg,2253.2,55.9,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D20,mh,L08,pencil,20,4,16,no (replacement),L08_D20_mh.jpg,2422.4,57.97,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D21,mh,L08,pencil,21,4,17,no (replacement),L08_D21_mh.jpg,2844.1,57.19,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D22,mh,L08,pencil,22,4,18,no (replacement),L08_D22_mh.jpg,2847.1,59.06,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D23,mh,L08,pencil,23,4,19,no (replacement),L08_D23_mh.jpg,2721.0,56.89,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D24,mh,L08,pencil,24,4,20,no (replacement),L08_D24_mh.jpg,2586.9,57.41,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D25,mh,L08,pencil,25,4,21,no (replacement),L08_D25_mh.jpg,2734.0,58.46,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L08_D26,mh,L08,pencil,26,4,22,no (replacement),L08_D26_mh.jpg,2182.3,57.62,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D17,mh,L09,blue,17,7,10,no (replacement),L09_D17_mh.jpg,2144.3,54.51,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D18,mh,L09,blue,18,7,11,no (replacement),L09_D18_mh.jpg,2817.7,54.47,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D19,mh,L09,blue,19,7,12,no (replacement),L09_D19_mh.jpg,2357.7,53.71,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D20,mh,L09,blue,20,7,13,no (replacement),L09_D20_mh.jpg,2689.2,54.79,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D21,mh,L09,blue,21,7,14,no (replacement),L09_D21_mh.jpg,2178.8,54.35,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D22,mh,L09,blue,22,7,15,no (replacement),L09_D22_mh.jpg,2629.0,54.66,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D23,mh,L09,blue,23,7,16,no (replacement),L09_D23_mh.jpg,2301.5,55.54,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D24,mh,L09,blue,24,7,17,no (replacement),L09_D24_mh.jpg,2771.8,55.21,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L09_D25,mh,L09,blue,25,7,18,no (replacement),L09_D25_mh.jpg,3117.1,55.4,mh-sh_L01-L14_D01-D26_combined_v6.tps,hand 18 Oct
+mh_L09_D26,mh,L09,blue,26,7,19,no (replacement),L09_D26_mh.jpg,2193.1,55.68,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L12_D21,mh,L12,pink,21,21,0,no (replacement),L12_D21_mh.jpg,2112.7,46.53,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L12_D22,mh,L12,pink,22,21,1,no (replacement),L12_D22_mh.jpg,2333.6,47.94,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L12_D23,mh,L12,pink,23,21,2,no (replacement),L12_D23_mh.jpg,2184.5,47.65,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L12_D24,mh,L12,pink,24,21,3,no (replacement),L12_D24_mh.jpg,2058.7,47.3,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L12_D25,mh,L12,pink,25,21,4,no (replacement),L12_D25_mh.jpg,2106.7,48.62,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L12_D26,mh,L12,pink,26,21,5,no (replacement),L12_D26_mh.jpg,1876.8,47.71,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L13_D21,mh,L13,purple,21,21,0,no (replacement),L13_D21_mh.jpg,2716.3,58.57,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L13_D22,mh,L13,purple,22,21,1,no (replacement),L13_D22_mh.jpg,2982.1,59.68,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L13_D23,mh,L13,purple,23,21,2,no (replacement),L13_D23_mh.jpg,2381.7,57.92,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L13_D24,mh,L13,purple,24,21,3,no (replacement),L13_D24_mh.jpg,2823.9,59.35,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L13_D25,mh,L13,purple,25,21,4,no (replacement),L13_D25_mh.jpg,2551.2,59.65,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+mh_L13_D26,mh,L13,purple,26,21,5,no (replacement),L13_D26_mh.jpg,2203.0,59.72,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L01_D17,sh,L01,red,17,1,16,yes,L01_D17_sh.jpg,2857.1,60.62,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L01_D18,sh,L01,red,18,1,17,yes,L01_D18_sh.jpg,3196.4,62.75,mh-sh_L01-L14_D01-D26_combined_v6.tps,hand 18 Oct
+sh_L01_D19,sh,L01,red,19,1,18,yes,L01_D19_sh.jpg,2824.8,61.17,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L01_D20,sh,L01,red,20,1,19,yes,L01_D20_sh.jpg,2657.7,62.55,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L01_D22,sh,L01,red,22,1,21,yes,L01_D22_sh.jpg,2361.0,61.45,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L01_D23,sh,L01,red,23,1,22,yes,L01_D23_sh.jpg,2132.5,58.89,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L01_D24,sh,L01,red,24,1,23,yes,L01_D24_sh.jpg,2602.7,60.35,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D17,sh,L04,white,17,1,16,yes,L04_D17_sh.jpg,2258.1,50.2,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D18,sh,L04,white,18,1,17,yes,L04_D18_sh.jpg,1967.6,52.18,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D19,sh,L04,white,19,1,18,yes,L04_D19_sh.jpg,2682.0,51.61,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D20,sh,L04,white,20,1,19,yes,L04_D20_sh.jpg,2546.4,50.53,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D21,sh,L04,white,21,1,20,yes,L04_D21_sh.jpg,2755.9,51.36,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D22,sh,L04,white,22,1,21,yes,L04_D22_sh.jpg,2443.6,52.38,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D23,sh,L04,white,23,1,22,yes,L04_D23_sh.jpg,1938.6,52.36,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D24,sh,L04,white,24,1,23,yes,L04_D24_sh.jpg,2096.6,51.39,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D25,sh,L04,white,25,1,24,yes,L04_D25_sh.jpg,2211.1,51.42,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L04_D26,sh,L04,white,26,1,25,yes,L04_D26_sh.jpg,2185.2,52.26,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L05_D17,sh,L05,black,17,1,16,yes,L05_D17_sh.jpg,2461.2,58.41,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L05_D18,sh,L05,black,18,1,17,yes,L05_D18_sh.jpg,2459.7,57.3,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L05_D19,sh,L05,black,19,1,18,yes,L05_D19_sh.jpg,2559.2,56.62,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L05_D20,sh,L05,black,20,1,19,yes,L05_D20_sh.jpg,2201.5,57.21,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L06_D17,sh,L06,brown,17,4,13,no (replacement),L06_D17_sh_v2.jpg,1867.6,49.99,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L06_D18,sh,L06,brown,18,4,14,no (replacement),L06_D18_sh.jpg,2550.9,51.16,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L06_D19,sh,L06,brown,19,4,15,no (replacement),L06_D19_sh.jpg,2142.9,48.02,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L06_D20,sh,L06,brown,20,4,16,no (replacement),L06_D20_sh.jpg,2042.8,49.82,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L06_D21,sh,L06,brown,21,4,17,no (replacement),L06_D21_sh.jpg,2429.3,49.97,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L06_D22,sh,L06,brown,22,4,18,no (replacement),L06_D22_sh.jpg,2460.4,48.64,mh-sh_L01-L14_D01-D26_combined_v6.tps,hand 18 Oct
+sh_L06_D24,sh,L06,brown,24,4,20,no (replacement),L06_D24_sh.jpg,2365.3,47.94,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L06_D25,sh,L06,brown,25,4,21,no (replacement),L06_D25_sh.jpg,2045.2,47.65,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L06_D26,sh,L06,brown,26,4,22,no (replacement),L06_D26_sh.jpg,1962.2,46.33,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L11_D17,sh,L11,orange,17,12,5,no (replacement),L11_D17_sh.jpg,2904.7,67.53,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L11_D18,sh,L11,orange,18,12,6,no (replacement),L11_D18_sh.jpg,3503.7,66.95,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L11_D19,sh,L11,orange,19,12,7,no (replacement),L11_D19_sh.jpg,2824.8,69.37,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L11_D20,sh,L11,orange,20,12,8,no (replacement),L11_D20_sh.jpg,2559.5,67.32,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L11_D21,sh,L11,orange,21,12,9,no (replacement),L11_D21_sh.jpg,2752.9,68.0,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L11_D22,sh,L11,orange,22,12,10,no (replacement),L11_D22_sh.jpg,2885.2,66.15,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L11_D23,sh,L11,orange,23,12,11,no (replacement),L11_D23_sh.jpg,2791.9,67.5,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L11_D24,sh,L11,orange,24,12,12,no (replacement),L11_D24_sh.jpg,2634.7,68.62,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L12_D21,sh,L12,pink,21,21,0,no (replacement),L12_D21_sh.jpg,1534.3,32.54,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L12_D22,sh,L12,pink,22,21,1,no (replacement),L12_D22_sh.jpg,1829.2,33.13,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L12_D23,sh,L12,pink,23,21,2,no (replacement),L12_D23_sh.jpg,1386.0,33.98,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L12_D24,sh,L12,pink,24,21,3,no (replacement),L12_D24_sh.jpg,1885.5,34.61,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L12_D25,sh,L12,pink,25,21,4,no (replacement),L12_D25_sh.jpg,1408.2,35.77,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L12_D26,sh,L12,pink,26,21,5,no (replacement),L12_D26_sh.jpg,1109.7,35.9,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L13_D21,sh,L13,purple,21,21,0,no (replacement),L13_D21_sh.jpg,2213.3,42.0,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L13_D22,sh,L13,purple,22,21,1,no (replacement),L13_D22_sh.jpg,2076.8,43.51,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L13_D23,sh,L13,purple,23,21,2,no (replacement),L13_D23_sh.jpg,1787.7,42.27,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L13_D24,sh,L13,purple,24,21,3,no (replacement),L13_D24_sh_v2.jpg,2058.9,42.48,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L13_D25,sh,L13,purple,25,21,4,no (replacement),L13_D25_sh.jpg,2083.2,43.36,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L13_D26,sh,L13,purple,26,21,5,no (replacement),L13_D26_sh.jpg,1595.0,42.79,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)
+sh_L14_D26,sh,L14,grey,26,26,0,no (replacement),L14_D26_sh.jpg,2063.6,56.76,mh-sh_L01-L14_D01-D26_combined_v6.tps,automatic (grid lines)

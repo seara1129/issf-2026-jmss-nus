@@ -1,0 +1,141 @@
+measure,period,tank,leaf,value
+greenness (GCC),A,mh,L02,0.47241
+greenness (GCC),A,mh,L04,0.46258
+greenness (GCC),A,mh,L06,0.47986
+greenness (GCC),A,mh,L07,0.48263
+greenness (GCC),A,mh,L08,0.52703
+greenness (GCC),A,mh,L09,0.4796
+greenness (GCC),A,sh,L01,0.53597
+greenness (GCC),A,sh,L03,0.56977
+greenness (GCC),A,sh,L04,0.53771
+greenness (GCC),A,sh,L05,0.5001
+greenness (GCC),A,sh,L06,0.48771
+greenness (GCC),A,sh,L09,0.53768
+greenness (GCC),B,mh,L02,0.47558
+greenness (GCC),B,mh,L06,0.50298
+greenness (GCC),B,mh,L07,0.45325
+greenness (GCC),B,mh,L08,0.54273
+greenness (GCC),B,mh,L09,0.48937
+greenness (GCC),B,sh,L01,0.51232
+greenness (GCC),B,sh,L04,0.51833
+greenness (GCC),B,sh,L05,0.50723
+greenness (GCC),B,sh,L06,0.46025
+greenness (GCC),B,sh,L11,0.4735
+greenness (GCC),C,mh,L02,0.46391
+greenness (GCC),C,mh,L06,0.4705
+greenness (GCC),C,mh,L07,0.44492
+greenness (GCC),C,mh,L08,0.4864
+greenness (GCC),C,mh,L09,0.47767
+greenness (GCC),C,mh,L12,0.4945
+greenness (GCC),C,mh,L13,0.43965
+greenness (GCC),C,sh,L01,0.46347
+greenness (GCC),C,sh,L04,0.48156
+greenness (GCC),C,sh,L05,0.47532
+greenness (GCC),C,sh,L06,0.44371
+greenness (GCC),C,sh,L11,0.4832
+greenness (GCC),C,sh,L12,0.46342
+greenness (GCC),C,sh,L13,0.5084
+size growth (% per day),A,mh,L02,0.96157
+size growth (% per day),A,mh,L04,-1.0147
+size growth (% per day),A,mh,L06,0.46421
+size growth (% per day),A,mh,L07,1.22782
+size growth (% per day),A,mh,L08,1.80255
+size growth (% per day),A,mh,L09,0.62967
+size growth (% per day),A,sh,L01,1.64607
+size growth (% per day),A,sh,L03,1.70695
+size growth (% per day),A,sh,L04,1.06451
+size growth (% per day),A,sh,L05,1.4823
+size growth (% per day),A,sh,L06,0.8066
+size growth (% per day),A,sh,L09,-1.27992
+size growth (% per day),B,mh,L02,2.00267
+size growth (% per day),B,mh,L06,0.16086
+size growth (% per day),B,mh,L07,0.1817
+size growth (% per day),B,mh,L08,1.72623
+size growth (% per day),B,mh,L09,0.88325
+size growth (% per day),B,sh,L01,0.20966
+size growth (% per day),B,sh,L04,0.71461
+size growth (% per day),B,sh,L05,0.16326
+size growth (% per day),B,sh,L06,0.43649
+size growth (% per day),B,sh,L11,0.35599
+size growth (% per day),C,mh,L02,0.21464
+size growth (% per day),C,mh,L06,-0.44158
+size growth (% per day),C,mh,L07,0.23066
+size growth (% per day),C,mh,L08,0.27631
+size growth (% per day),C,mh,L09,0.2993
+size growth (% per day),C,mh,L12,0.45743
+size growth (% per day),C,mh,L13,0.34315
+size growth (% per day),C,sh,L01,-0.42965
+size growth (% per day),C,sh,L04,0.22077
+size growth (% per day),C,sh,L05,-0.74214
+size growth (% per day),C,sh,L06,-0.79893
+size growth (% per day),C,sh,L11,0.02435
+size growth (% per day),C,sh,L12,2.11348
+size growth (% per day),C,sh,L13,0.25077
+area growth (% per day),A,mh,L02,1.8008
+area growth (% per day),A,mh,L04,-2.50763
+area growth (% per day),A,mh,L06,0.75482
+area growth (% per day),A,mh,L07,2.53809
+area growth (% per day),A,mh,L08,3.35275
+area growth (% per day),A,mh,L09,1.28777
+area growth (% per day),A,sh,L01,3.36818
+area growth (% per day),A,sh,L03,3.04165
+area growth (% per day),A,sh,L04,2.10725
+area growth (% per day),A,sh,L05,3.15104
+area growth (% per day),A,sh,L06,1.87289
+area growth (% per day),A,sh,L09,-2.68136
+area growth (% per day),B,mh,L02,3.90733
+area growth (% per day),B,mh,L06,0.25481
+area growth (% per day),B,mh,L07,0.32435
+area growth (% per day),B,mh,L08,3.25238
+area growth (% per day),B,mh,L09,1.75329
+area growth (% per day),B,sh,L01,0.37909
+area growth (% per day),B,sh,L04,1.33207
+area growth (% per day),B,sh,L05,0.05175
+area growth (% per day),B,sh,L06,0.94622
+area growth (% per day),B,sh,L11,0.8249
+area growth (% per day),C,mh,L02,0.41009
+area growth (% per day),C,mh,L06,-0.51042
+area growth (% per day),C,mh,L07,0.46433
+area growth (% per day),C,mh,L08,0.41065
+area growth (% per day),C,mh,L09,0.55749
+area growth (% per day),C,mh,L12,0.78571
+area growth (% per day),C,mh,L13,0.59964
+area growth (% per day),C,sh,L01,-0.88254
+area growth (% per day),C,sh,L04,0.48963
+area growth (% per day),C,sh,L05,-1.35534
+area growth (% per day),C,sh,L06,-1.51278
+area growth (% per day),C,sh,L11,0.12417
+area growth (% per day),C,sh,L12,4.33494
+area growth (% per day),C,sh,L13,0.21873
+roundness (computer outlines),A,mh,L02,0.94465
+roundness (computer outlines),A,mh,L04,0.9143
+roundness (computer outlines),A,mh,L06,0.93644
+roundness (computer outlines),A,mh,L07,0.9167
+roundness (computer outlines),A,mh,L08,0.93238
+roundness (computer outlines),A,mh,L09,0.86035
+roundness (computer outlines),A,sh,L01,0.96108
+roundness (computer outlines),A,sh,L03,0.96777
+roundness (computer outlines),A,sh,L04,0.97327
+roundness (computer outlines),A,sh,L05,0.8603
+roundness (computer outlines),A,sh,L06,0.93707
+roundness (computer outlines),A,sh,L09,0.92215
+roundness (computer outlines),B,mh,L02,0.96026
+roundness (computer outlines),B,mh,L06,0.94282
+roundness (computer outlines),B,mh,L07,0.9182
+roundness (computer outlines),B,mh,L08,0.94124
+roundness (computer outlines),B,mh,L09,0.88677
+roundness (computer outlines),B,sh,L01,0.9654
+roundness (computer outlines),B,sh,L04,0.96773
+roundness (computer outlines),B,sh,L05,0.84432
+roundness (computer outlines),B,sh,L06,0.93636
+roundness (computer outlines),B,sh,L11,0.9768
+roundness (computer outlines),C,mh,L02,0.96033
+roundness (computer outlines),C,mh,L08,0.93896
+roundness (computer outlines),C,mh,L09,0.88744
+roundness (computer outlines),C,mh,L12,0.81388
+roundness (computer outlines),C,mh,L13,0.9287
+roundness (computer outlines),C,sh,L01,0.96283
+roundness (computer outlines),C,sh,L04,0.97034
+roundness (computer outlines),C,sh,L11,0.96891
+roundness (computer outlines),C,sh,L12,0.91832
+roundness (computer outlines),C,sh,L13,0.93306

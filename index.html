@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melbourne and Singapore: how climate shapes air monitoring and plant stress | ISSF 2026</title>
+<meta name="description" content="Beyond the ISSF 2026 poster by John Monash Science School and NUS High School: the poster PDF, project timeline, results that didn't fit on the poster, takeaways, the Leaf Landmarks app, data and code.">
+<link rel="icon" href="assets/img/mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="home" href="#top" aria-label="Back to the top"><img src="assets/img/mark.svg" alt=""></a>
+    <span class="name">ISSF 2026 · JMSS and NUS High</span>
+    <details class="menu">
+      <summary aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></summary>
+      <nav class="toc-list panel" aria-label="Contents">
+        <a href="#brief"><span class="num">01</span><span class="t">The poster</span><span class="arrow">→</span></a>
+        <a href="#timeline"><span class="num">02</span><span class="t">Project timeline</span><span class="arrow">→</span></a>
+        <a href="#extra"><span class="num">03</span><span class="t">Extra Results</span><span class="arrow">→</span></a>
+        <a href="#lessons"><span class="num">04</span><span class="t">Takeaways and next steps</span><span class="arrow">→</span></a>
+        <a href="#app"><span class="num">05</span><span class="t">Leaf Landmarks app</span><span class="arrow">→</span></a>
+        <a href="#code"><span class="num">06</span><span class="t">Data and code</span><span class="arrow">→</span></a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+<div class="intro">
+  <h1>Melbourne and Singapore: how climate shapes air monitoring and plant stress</h1>
+  <p class="lead">Extra information: project timeline, results that didn't fit, what we'd do differently, and the app,
+    data and code.</p>
+  <p class="schools"><b>John Monash Science School</b> · Seara, Shlishta and Ryan<br>
+    <b>NUS High School of Mathematics and Science</b> · Michael, Myat and Somnath</p>
+  <nav class="map" aria-label="Sections">
+    <div class="grp">
+      <a href="#brief">Poster</a><a href="#timeline">Timeline</a><a href="#extra">Extra results</a>
+      <a href="#lessons">Takeaways</a><a href="#app">Leaf app</a><a href="#code">Data and code</a></div>
+    <div class="grp"><span class="lab">Downloads</span>
+      <a href="downloads/research/issf_poster_2026.pdf">Poster PDF</a><a href="downloads/leaf_project_data_v1.zip">Leaf data</a></div>
+  </nav>
+</div>
+
+<section id="brief">
+  <h3><span class="num">01</span>The poster</h3>
+  <p><b>How do the climates of Melbourne and Singapore affect plant stress, and where air-quality sensors should go?</b></p>
+  <div class="cols">
+    <div>
+      <h4>Leaves · John Monash Science School</h4>
+      <ul class="rows">
+        <li>Nasturtium leaves kept the same shape in Melbourne-like (52–54%) and Singapore-like (90–96%) humidity over 26 days.</li>
+        <li>Dry air caused a short shock in the first week (duller leaves, more leaves lost), but no lasting colour difference.</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Sensors · NUS High School</h4>
+      <ul class="rows">
+        <li>Placing PM2.5 sensors with the weather in mind made pollution maps 10–50% more accurate when sources are predictable.</li>
+        <li>Melbourne didn't benefit more than Singapore: how densely sensors cover a city mattered more.</li>
+      </ul>
+    </div>
+  </div>
+  <a href="downloads/research/issf_poster_2026.pdf"><img class="poster" src="assets/img/poster_preview.jpg" alt="Our ISSF 2026 poster: Melbourne and Singapore, how climate shapes air monitoring and plant stress." loading="lazy"></a>
+  <a class="btn main" href="downloads/research/issf_poster_2026.pdf">Open the poster (PDF, 3.8 MB)</a>
+</section>
+
+<section id="timeline">
+  <h3><span class="num">02</span>Project timeline</h3>
+  <ol class="timeline">
+    <li><span class="when">Term 2, 2026</span><span class="what"><b>Proposal with NUS High.</b> Our first plan was wider
+      around smoke and haze, leaf pores and a laser beam. We narrowed it down to what we could test properly.</span></li>
+    <li><span class="when">29 Jun – 16 Aug</span><span class="what"><b>Phase 1: field trips.</b> Four visits to street trees
+      at three EPA Victoria air-monitoring sites (Alphington, Footscray, Melbourne CBD). Leaves photographed at about 10×
+      to count surface particles (ImageJ) and trace veins.</span>
+      <div class="thumbs"><img src="assets/img/photos/phase1_ficus.jpg" alt="A Ficus tree branch above a wooden fence." loading="lazy"><img src="assets/img/photos/phase1_macro_1.jpg" alt="Close-up of a leaf surface with fine veins." loading="lazy"><img src="assets/img/photos/phase1_macro_3.jpg" alt="Backlit leaf showing its vein network." loading="lazy"></div></li>
+    <li><span class="when">August</span><span class="what"><b>The optical box.</b> A light source shines across a box to a
+      sensor while smoke burns in a dish between them, to see how much smoke and PM 2.5 Concentration
+      disrupt the light.</span>
+      <div class="thumbs"><img src="assets/img/photos/phase1_optical_box.jpg" alt="Inside a cardboard box: a light source, a dish with burning paper and a light sensor." loading="lazy"></div></li>
+    <li><span class="when">Why we changed</span><span class="what">Ficus leaves are oval with no fixed centre, and the field
+      photos had no scale. Nasturtium's round leaf has a central hub that every landmark can be measured from, so Phase 2
+      moved into the lab.</span></li>
+    <li><span class="when">21 Sep – 16 Oct</span><span class="what"><b>Phase 2: two tanks, 26 days.</b> A dry,
+      Melbourne-like tank and a humid, Singapore-like tank, with every tagged leaf photographed daily on grid paper
+      (263 photos).</span>
+      <div class="thumbs"><img src="assets/img/photos/setup_seedlings.jpg" alt="A box of young nasturtium seedlings." loading="lazy"><img src="assets/img/photos/setup_tanks.jpg" alt="The two tanks with sensors, a mist maker and a laptop logging data." loading="lazy"></div></li>
+    <li><span class="when">18 Oct</span><span class="what"><b>Tests written down first.</b> Before comparing the Days 17–26
+      leaves, we wrote down exactly which tests we'd run, so the result couldn't be cherry-picked.</span></li>
+    <li><span class="when">Late October</span><span class="what"><b>Leaf Landmarks app</b> built from our measuring code, and
+      checked against 68 of our photos.</span></li>
+    <li><span class="when">In parallel</span><span class="what"><b>NUS High: sensor simulations.</b> Five
+      years of weather and PM2.5 data, pollution simulated on 2 km grids, and sensor networks chosen for each city.</span></li>
+    <li><span class="when">November</span><span class="what"><b>Joint poster</b> for ISSF 2026.</span></li>
+  </ol>
+</section>
+
+<section id="extra">
+  <h3><span class="num">03</span>Extra Results</h3>
+  <h4>Leaves · John Monash Science School</h4>
+  <figure>
+    <div class="pic"><img src="assets/img/extra_heat_colour.png" alt="Top: daily maximum temperature in each tank, with the humid tank often above 40 degrees. Bottom: daily difference in greenness between the tanks." loading="lazy"></div>
+    <figcaption><b>Heat and colour, day by day.</b> Top: the humid tank passed 40 °C on 10 of the 26 days. Bottom: the
+      dry-tank leaves were duller mostly in the first week (average −0.035 on Days 2–10), and the gap almost vanished
+      after that.</figcaption>
+  </figure>
+  <figure>
+    <div class="pic"><img src="assets/img/extra_lifespans.png" alt="One line per tagged leaf showing the days it was photographed, for each tank." loading="lazy"></div>
+    <figcaption><b>How long each leaf lasted.</b> Each line is one tagged leaf; a bar means it was lost. 4 of the 5 starting
+      leaves in the dry tank were lost by Day 10, against 2 of 5 in the humid tank.</figcaption>
+  </figure>
+  <figure>
+    <div class="pic"><img src="assets/img/extra_humidity.png" alt="Hourly and daily humidity in the two tanks over 26 days." loading="lazy"></div>
+    <figcaption><b>The humidity log.</b> The dry tank drifted up to about 70–77% on Days 11–13, so our planned test used
+      Days 17–26, when the gap was largest (52% vs 94%). The break on Days 22–25 is a sensor dropout.</figcaption>
+  </figure>
+  <h4>How reliable are our measurements?</h4>
+  <ul class="rows">
+    <li>Re-measuring the same photos changed leaf shape by only 0.012 (Procrustes distance), less than one leaf changes
+      from one day to the next (0.030) and far less than two leaves differ (0.063).</li>
+    <li>Scales read automatically from the grid paper were within 1.35% of careful hand measurements (median of 89 photos).</li>
+    <li>The smallest differences our Days 17–26 test could reliably detect were 0.032 in greenness, 1.2% per day in
+      growth and 0.029 in shape. "No difference" means no difference bigger than these.</li>
+  </ul>
+  <h4>Sensors · NUS High School</h4>
+  <div class="placeholder"><span>NUS High's extra graphs<br>coming soon</span></div>
+</section>
+
+<section id="lessons">
+  <h3><span class="num">04</span>Takeaways and next steps</h3>
+  <h4>What we'd do differently</h4>
+  <ul class="rows">
+    <li><b>Control temperature.</b> The humid tank also ran hotter (up to 48 °C vs 39 °C), so heat and humidity were
+      mixed up.</li>
+    <li><b>More tanks.</b> With one tank per condition, a difference between tanks can't be pinned on humidity alone.</li>
+    <li><b>Tag more leaves at the start.</b> Replacing dying leaves (4 of 5 in the dry tank) meant few leaves were
+      followed all the way through.</li>
+    <li><b>Beat the glare.</b> 39 of 263 leaf outlines had to be traced by hand because of glare or brown edges.</li>
+    <li><b>Scale in every photo.</b> Without a scale marker, the Phase 1 field photos could only be compared in pixels.</li>
+  </ul>
+  <h4>Next steps</h4>
+  <ul class="rows">
+    <li><b>Leaves:</b> a temperature-controlled trial at the same two humidities, and young, still-growing leaves, whose
+      shape may respond more.</li>
+    <li><b>Sensors:</b> finer 0.5 km grids and finer wind data, especially for Singapore.</li>
+  </ul>
+</section>
+
+<section id="app">
+  <h3><span class="num">05</span>Leaf Landmarks app</h3>
+  <p>Our measuring method as a free Windows app: click a leaf's vein hub, and it finds the outline, places the 13
+    landmarks, reads the scale from the grid paper and measures size, shape and greenness.</p>
+  <figure>
+    <img src="assets/img/app_screenshot.jpg" alt="The Leaf Landmarks app showing a nasturtium leaf with its outline, 13 numbered landmarks and its measurements." loading="lazy">
+  </figure>
+  <div class="warn"><b>For nasturtium leaves only (for now).</b> You click the vein hub yourself on every photo; everything
+    after that click is automatic.</div>
+  <a class="btn main" href="https://github.com/seara1129/issf-2026-jmss-nus/releases/download/v2.0/LeafLandmarks_v2.exe">Download for Windows · 78 MB</a>
+  <a class="btn" href="https://github.com/seara1129/issf-2026-jmss-nus/blob/main/code/leaf_app/README.txt">Read me first</a>
+  <p class="note" style="margin-top:10px">Windows 10 or 11, nothing to install. If Windows says "Windows protected your PC",
+    choose <i>More info</i>, then <i>Run anyway</i> (the app isn't signed by a company). Your photos stay on your computer.</p>
+</section>
+
+<section id="code">
+  <h3><span class="num">06</span>Data and code</h3>
+  <div class="cols">
+    <div>
+      <h4>Leaves · John Monash Science School</h4>
+      <ul class="rows">
+        <li><a href="downloads/leaf_project_data_v1.zip">All Phase 2 leaf data (zip)</a><span class="what">Landmarks for all 263 photos, every measurement, the planned-test results and the tank sensor log</span></li>
+        <li><a href="https://github.com/seara1129/issf-2026-jmss-nus/tree/main/code/scripts">Analysis code</a><span class="what">Python: landmarks, scales, colour, statistics and figures</span></li>
+        <li><a href="https://github.com/seara1129/issf-2026-jmss-nus/tree/main/code/leaf_app">App source code</a><span class="what">Leaf Landmarks, and how to build it</span></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Sensors · NUS High School</h4>
+      <ul class="rows">
+        <li><b>Sensor network code</b><span class="what">Weather patterns, pollution model and sensor placement: coming soon</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>ISSF 2026 · Seara, Shlishta and Ryan, John Monash Science School · Michael, Myat and Somnath, NUS High School of
+      Mathematics and Science.</p>
+    <p>Everything on this page is also in the <a href="https://github.com/seara1129/issf-2026-jmss-nus">project repository</a>.</p>
+  </div>
+</footer>
+<script>
+  // the menu closes after picking a section, on a tap outside it, and on Escape
+  var menu = document.querySelector(".menu");
+  menu.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { menu.open = false; }); });
+  document.addEventListener("click", function (e) { if (menu.open && !menu.contains(e.target)) menu.open = false; });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") menu.open = false; });
+  // figures are dense on a phone: tap one to open it full size and zoom
+  document.querySelectorAll(".pic img").forEach(function (img) {
+    var a = document.createElement("a");
+    a.href = img.getAttribute("src");
+    a.title = "Open full size";
+    img.parentNode.insertBefore(a, img);
+    a.appendChild(img);
+  });
+</script>
+</body>
+</html>
