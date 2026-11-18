@@ -135,6 +135,21 @@ for f in ("leaf_app.py", "leaf_core.py", "validate_core.py", "make_icon.py", "bu
           "leaf_icon.ico", "leaf_icon.png", "validation/core_vs_project_v2.csv", "validation/core_vs_project_v2_log.txt"):
     copy(os.path.join(root, "leaf_app", f), f"code/leaf_app/{f}")
 
+# one zip of all the leaf code, served by the site itself (scripts/ and leaf_app/ side by side, so the app's
+# ../scripts import still works after unzipping)
+code_rel = "downloads/leaf_code_v1.zip"
+if not os.path.exists(os.path.join(site, code_rel)):
+    cbuf = io.BytesIO()
+    with zipfile.ZipFile(cbuf, "w", zipfile.ZIP_DEFLATED) as z:
+        for sub in ("scripts", "leaf_app"):
+            for dirpath, _, files in sorted(os.walk(os.path.join(site, "code", sub))):
+                for f in sorted(files):
+                    p = os.path.join(dirpath, f)
+                    z.write(p, "leaf_code/" + os.path.relpath(p, os.path.join(site, "code")).replace(os.sep, "/"))
+    save_bytes(cbuf.getvalue(), code_rel)
+else:
+    skipped.append(code_rel)
+
 print(f"wrote {len(wrote)} files, {len(skipped)} already there")
 for rel in differs:
     print("  NOT OVERWRITTEN (differs from this run):", rel)
