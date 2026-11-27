@@ -133,7 +133,25 @@
       and 0.029 in shape, so "no difference" means nothing bigger than that.</li>
   </ul>
   <h4>Sensors · NUS High School</h4>
-  <div class="placeholder"><span>NUS High's extra graphs<br>coming soon</span></div>
+  <figure>
+    <div class="pic"><img src="assets/img/nus_gain_singapore.jpg" alt="Bar chart: accuracy gain of weather-informed sensor placement in Singapore with 22 sensors, for nine kinds of pollution source and three spreading speeds." loading="lazy"></div>
+    <figcaption><b>Singapore, 22 sensors (its real network).</b> How much more accurately weather-informed placement
+      rebuilt the pollution map than evenly spread sensors, for pollution sources from most to least predictable, with
+      pollution spreading slowly, normally or fast. The gain is biggest, about 19–34%, when 30% of the pollution comes
+      from fixed sources, and under 4% when sources move at random, whatever the spreading speed. Error bars: 95%
+      confidence intervals.</figcaption>
+  </figure>
+  <figure>
+    <div class="pic"><img src="assets/img/nus_gain_melbourne.jpg" alt="Bar chart: accuracy gain of weather-informed sensor placement in Melbourne with 8 sensors, for nine kinds of pollution source and three spreading speeds." loading="lazy"></div>
+    <figcaption><b>Melbourne, 8 sensors (its real network).</b> The same test. With only 8 sensors the gain stays at about
+      10% or less, and many error bars dip below zero.</figcaption>
+  </figure>
+  <figure>
+    <div class="pic"><img src="assets/img/nus_gain_same_density.jpg" alt="Bar chart comparing the accuracy gain for Singapore with 22 sensors and Melbourne with 88 sensors across nine kinds of pollution source." loading="lazy"></div>
+    <figcaption><b>Same sensor density.</b> Singapore's 22 sensors against 88 in Melbourne, the same number per km² (main
+      analysis). A and B are two random sets of source locations. With 30% fixed sources Singapore gains 28–34% in both
+      sets, while Melbourne gains 40–58% in set B but only 11–13% in set A.</figcaption>
+  </figure>
 </section>
 
 <section id="lessons">
@@ -183,7 +201,7 @@
       <h4>Sensors · NUS High School</h4>
       <ul class="rows">
         <li><a href="downloads/research/nus_sensor_methodology.pdf">Full sensor method (PDF)</a><span class="what">All eight phases in detail: grids, weather patterns, pollution model, sensor placement and tests</span></li>
-        <li><b>Sensor network code</b><span class="what">Weather patterns, pollution model and sensor placement: coming soon</span></li>
+        <li><a href="downloads/nus_sensor_code_v1.zip">All sensor code (zip)</a><span class="what">Python for all eight phases: grids, weather patterns, pollution model, sensor placement and tests</span></li>
       </ul>
     </div>
   </div>

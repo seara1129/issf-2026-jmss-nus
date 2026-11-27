@@ -3,8 +3,12 @@
     removed), plus the sensor team's three figures cropped out of it at full sharpness (they are vector graphics)
   - set-up photos and Phase 1 photos (field trip, leaf macro photos, optical box): turned upright, resized, and saved
     without any hidden photo data (several have GPS locations)
+  - optional, NUS High's material: --nus-graphs=<zip> (their three accuracy-gain graphs, re-saved without photo data)
+    and --nus-code=<folder of a clone of github.com/micg27/issf> (its Code folder as one zip, with a note on where
+    and when it was copied)
 Read straight from the PDF and the zips; nothing given is changed, and nothing in website/ is overwritten.
 Usage: python build_website_extras.py <morpho folder> <poster.pdf> <set-up photos.zip> <phase 1 photos.zip>
+       [--nus-graphs=<zip>] [--nus-code=<repo folder>]
 """
 import io
 import os
@@ -15,6 +19,7 @@ import pymupdf
 from PIL import Image, ImageOps
 
 root, poster, setup_zip, phase1_zip = sys.argv[1:5]
+flags = dict(a[2:].split("=", 1) for a in sys.argv[5:] if a.startswith("--") and "=" in a)
 site = os.path.join(root, "website")
 wrote, skipped = [], []
 
@@ -68,5 +73,33 @@ PHOTOS = ((setup_zip, "PHOTO-2026-10-11-21-40-41.jpg", "setup_seedlings.jpg"),
 for zpath, member, rel in PHOTOS:
     with zipfile.ZipFile(zpath) as z:
         save(jpeg(Image.open(io.BytesIO(z.read(member))), 1400), f"assets/img/photos/{rel}")
+
+# ---- NUS High: three graphs and the sensor-network code ----
+if "nus-graphs" in flags:
+    GRAPHS = (("e41cb4de-5ce6-4dc6-9edb-21da09522148.jpeg", "nus_gain_singapore.jpg"),
+              ("09bd599d-190e-4c84-bbed-eb2e11302a2d.jpeg", "nus_gain_melbourne.jpg"),
+              ("b679aefc-656b-4fc9-9753-b5f0b3dea589.jpeg", "nus_gain_same_density.jpg"))
+    with zipfile.ZipFile(flags["nus-graphs"]) as z:
+        for member, rel in GRAPHS:
+            save(jpeg(Image.open(io.BytesIO(z.read(member))), 1600, 90), f"assets/img/{rel}")
+if "nus-code" in flags:
+    repo = flags["nus-code"]
+    rev = os.popen(f'git -C "{repo}" log -1 --format="%h, %ad" --date=short').read().strip()
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+        z.writestr("nus_sensor_code/README.txt",
+                   "Sensor-network code by NUS High School of Mathematics and Science (Michael, Myat and Somnath),\r\n"
+                   f"copied from github.com/micg27/issf, folder Code (commit {rev}).\r\n"
+                   "The phases match the sensor method PDF on the project website.\r\n")
+        code = os.path.join(repo, "Code")
+        for dirpath, _, files in sorted(os.walk(code)):
+            for f in sorted(files):
+                p = os.path.join(dirpath, f)
+                z.write(p, "nus_sensor_code/" + os.path.relpath(p, code).replace(os.sep, "/"))
+    rel = "downloads/nus_sensor_code_v1.zip"
+    if os.path.exists(os.path.join(site, rel)):                          # zips differ byte-wise between runs: only once
+        skipped.append(rel)
+    else:
+        save(buf.getvalue(), rel)
 
 print(f"wrote {len(wrote)}, already there {len(skipped)}")

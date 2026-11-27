@@ -8,8 +8,12 @@ Two arrangements:
   --wide   landscape like v3 (boxes 3-5 in a right column) at the v3 poster size (16 x 9.1 in); the body text is the
            largest size that still fits, searched in 0.5 pt steps.
 --fair-tests adds the fair-tests band underneath. --editable also writes the leaf drawing on its own
-(a0_methods_leaf_<v>.png) and the box layout (a0_methods_layout_<v>.json) for make_methods_pptx.js.
-Usage: python poster_methods_diagram_a0.py <morpho folder> <version> [--wide] [--fair-tests] [--editable]
+(a0_methods_leaf_<v>.png) and the box layout (a0_methods_layout_<v>.json) for make_methods_pptx.js. --no-fill leaves
+out every white background (boxes, grid paper, figure) so the poster's colour shows through. --poster-layout (with
+--wide) arranges it as the user did on the poster: the photo at the top, box 2 under it with no connector, and the
+left column below box 1 left empty for the tank drawings. --body=PT fixes the body text size instead of searching.
+Usage: python poster_methods_diagram_a0.py <morpho folder> <version> [--wide] [--fair-tests] [--editable] [--no-fill]
+       [--poster-layout] [--body=PT]
 Writes 3_results/poster_figures/a0/a0_methods_diagram_<v>.svg and .png (300 dpi).
 """
 import json
@@ -31,9 +35,13 @@ from matplotlib.transforms import Bbox
 root, ver = sys.argv[1:3]
 opts = sys.argv[3:]
 wide, fair_tests, editable = "--wide" in opts, "--fair-tests" in opts, "--editable" in opts
+no_fill = "--no-fill" in opts
+poster_layout = wide and "--poster-layout" in opts
+fixed_body = next((float(o.split("=", 1)[1]) for o in opts if o.startswith("--body=")), None)
 out = os.path.join(root, "3_results", "poster_figures", "a0")
 GREEN, DARK, LEAF, VEIN, ORANGE, INK, GRIDC, PAPER = ("#3d6b2c", "#25451a", "#6f9e45", "#dfeec4", "#d9822b", "#222222",
-                                                      "#d9d9d2", "#fbfbf6")
+                                                      "#d9d9d2", "none" if no_fill else "#fbfbf6")
+BOX_FILL = "none" if no_fill else "white"
 TINT = "#eef5e6"
 plt.rcParams.update({"font.family": "Arial", "svg.fonttype": "none"})
 REG, BOLD = FontProperties(family="Arial"), FontProperties(family="Arial", weight="bold")
@@ -43,17 +51,18 @@ TITLE = 30 if wide else 40                       # pt
 H_WIDE = 91.0                                    # v3 as placed on the poster (fair-tests band cropped off)
 TITLE_TEXT = "From leaf photo to 13 landmarks"
 
-steps = {1: ("Two climates, 26 days", ["Low humidity (Melbourne-like): 52–54% RH",
-                                         "High humidity (Singapore-like): 90–96% RH",
+steps = {1: ("Two climates, 26 days", [  # wording as on the poster, 17 Nov
+                                         "Low humidity: 52–54% RH",
+                                         "High humidity: 90–96% RH",
                                          "9 seedlings per tank; same light and water"]),
-         2: ("Tagged leaves, daily photos", ["5 tagged leaves per tank at the start",
+         2: ("Tagged leaves, daily photos", ["5 tagged leaves per tank initially",
                                                "Shrivelled leaves replaced; more tagged from Day 21",
                                                "23 leaves in total (11 Low, 12 High)",
-                                               "Photographed every day on 5 mm grid paper (263 photos)"]),
-         3: ("Hub and edge", ["We click the hub, where the stalk joins",
+                                               "Photographed daily (263 photos)"]),
+         3: ("Hub and edge", ["Marks the hub manually",
                               "The program finds the edge (traced by hand if needed)"]),
          4: ("13 landmarks", ["1 = the hub", "The line from the leaf centre through the hub sets 12 o'clock (2)"]),
-         5: ("What we measure", ["Shape: Procrustes analysis removes size, position and rotation",
+         5: ("What we measure", ["Shape: Procrustes analysis",
                                  "Size: centroid size (mm)",
                                  "Roundness: 4π × area ÷ perimeter²",
                                  "Greenness: G ÷ (R + G + B), white-balanced to the paper"]),
@@ -119,12 +128,12 @@ def arrange(body):
 
 # ---------- sizes first (the figure height depends on the wrapped text) ----------
 top_room = 10.5 * TITLE / 40                     # title strip above the columns
-body = 24.0 if wide else 28.0
+body = fixed_body or (24.0 if wide else 28.0)
 while True:
     m, LW, RW, widths, prep, hgt, need = arrange(body)
     y_base = 1.5 + (hgt[6] + VGAP if fair_tests else 0)
     H = H_WIDE + y_base - 1.5 if wide else y_base + need + top_room
-    if not wide or y_base + need + top_room <= H or body <= 12:
+    if fixed_body or not wide or y_base + need + top_room <= H or body <= 12:
         break
     body -= 0.5
 col_h = H - top_room - y_base
@@ -143,7 +152,7 @@ if wide:
     fx0, fx1 = LX + LW + 2.5, RX - 2.5
     F = fx1 - fx0
     FH = min(col_h - 2, F + 6)
-    fy0 = y_base + (col_h - FH) / 2
+    fy0 = y_base + col_h + 1.0 - FH if poster_layout else y_base + (col_h - FH) / 2   # poster: top, box 2 below
 else:
     fx0, fx1 = LX + LW + 2.0, RX - 2.0
     F = fx1 - fx0
@@ -215,13 +224,13 @@ if editable:                                                     # the drawing a
     if os.path.exists(leaf_png):
         raise SystemExit(f"{leaf_png} already exists - not overwriting")
     fig.savefig(leaf_png, dpi=300, bbox_inches=Bbox([[fx0 / 10 - 0.02, fy0 / 10 - 0.02],
-                                                     [fx1 / 10 + 0.02, (fy0 + FH) / 10 + 0.02]]))
+                                                     [fx1 / 10 + 0.02, (fy0 + FH) / 10 + 0.02]]), transparent=no_fill)
 
 # ---------- step boxes ----------
 drawn, links = [], []
 
 
-def box(x0, top, w, num, fill="white"):
+def box(x0, top, w, num, fill=BOX_FILL):
     """Draw step num as a box hanging from y = top; returns (x0, y0, w, h)."""
     title, (wrapped, h) = steps[num][0], prep[num]
     y0 = top - h
@@ -258,14 +267,22 @@ def side_link(b, target, y_from=None):
 
 top = y_base + col_h
 b1 = box(LX, top, LW, 1)
-b2 = box(LX, y_base + hgt[2], LW, 2)                             # bottom of the column: set-up diagram goes above it
+if poster_layout:                                                # under the photo, centred, clear of box 5
+    b2 = box(min(fx0 + F / 2 - LW / 2, RX - 1.5 - LW), fy0 - 1.2, LW, 2)
+else:                                                            # bottom of the column: set-up diagram goes above it
+    b2 = box(LX, y_base + hgt[2], LW, 2)
 b3 = box(RX, top, RW, 3)
 if wide:                                                         # right column spread over the full height
-    rgap = (col_h - hgt[3] - hgt[4] - hgt[5]) / 2
+    # poster layout: box 5 starts a little above box 2, so its connector clears box 2's corner
+    b5_top = b2[1] + b2[3] + 3.8 if poster_layout else y_base + hgt[5]
+    rgap = (b3[1] - b5_top - hgt[4]) / 2
     b4 = box(RX, b3[1] - rgap, RW, 4)
-    b5 = box(RX, y_base + hgt[5], RW, 5)
-    side_link(b1, (fx0 + 1.5, fy0 + FH - 1.5))
-    side_link(b2, sb)
+    b5 = box(RX, b5_top, RW, 5)
+    if poster_layout:                                            # as on the poster: low on box 1, no line from box 2
+        side_link(b1, (fx0 + 1.8, b1[1] + 0.35 * b1[3]))
+    else:
+        side_link(b1, (fx0 + 1.5, fy0 + FH - 1.5))
+        side_link(b2, sb)
     side_link(b3, edge_point(45))
     side_link(b4, (hx + 1.5, hy + 0.2), y_from=hy - (RX - hx) * np.tan(np.radians(15)))   # between landmarks 5 and 6
     side_link(b5, (gx + 0.5 * R, gy - 0.5 * R))
@@ -288,7 +305,7 @@ for ext in ("svg", "png"):
     p = os.path.join(out, f"a0_methods_diagram_{ver}.{ext}")
     if os.path.exists(p):
         raise SystemExit(f"{p} already exists - not overwriting")
-    fig.savefig(p, dpi=300, bbox_inches="tight", pad_inches=0.1)
+    fig.savefig(p, dpi=300, bbox_inches="tight", pad_inches=0.1, transparent=no_fill)
 if editable:
     p = os.path.join(out, f"a0_methods_layout_{ver}.json")
     if os.path.exists(p):

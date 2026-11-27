@@ -23,7 +23,8 @@ pres.layout = "METHODS";
 pres.theme = { headFontFace: "Arial", bodyFontFace: "Arial" };
 pres.title = L.title;
 const slide = pres.addSlide();
-slide.background = { color: "FFFFFF" };
+// see-through boxes (--no-fill) are shown on the poster's background colour, as they will look on the poster
+slide.background = { color: L.boxes.some((b) => b.fill === "none") ? "E4E9D9" : "FFFFFF" };
 const font = { fontFace: "Arial", margin: 0 };
 
 const th = (L.title_pt * 1.5) / PT;
@@ -46,7 +47,8 @@ L.links.forEach(([x1, y1, x2, y2], i) => {
 for (const b of L.boxes) {
   const name = `Box ${b.num}`;
   slide.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: X(b.x), y: Y(b.top), w: X(b.w), h: X(b.h),
-    fill: { color: hex(b.fill) }, line: { color: GREEN, width: 2.4 }, rectRadius: 0.16, objectName: name });
+    fill: b.fill === "none" ? { type: "none" } : { color: hex(b.fill) },   // "none": see-through box (--no-fill)
+    line: { color: GREEN, width: 2.4 }, rectRadius: 0.16, objectName: name });
   const cy = b.top - m.head, r = m.rad, cx = b.x + 1.4 * r;
   slide.addText(String(b.num), { ...font, shape: pres.shapes.OVAL, x: X(cx - r), y: Y(cy + r), w: X(2 * r), h: X(2 * r),
     fill: { color: GREEN }, line: { type: "none" }, fontSize: m.label, bold: true, color: "FFFFFF", align: "center",
@@ -62,7 +64,9 @@ for (const b of L.boxes) {
     return { text: row, options: j === 0 ? { bullet: { indent: m.bul * PT }, paraSpaceAfter: m.gap * PT, breakLine: last }
       : { softBreakBefore: true, breakLine: last } };
   }));
-  slide.addText(items, { ...font, x: X(b.x + m.pad), y: Y(yTop), w: X(b.w - m.pad - m.rpad),
+  // the text box reaches almost to the box edge: PowerPoint's Arial runs a little wider than matplotlib's, and a
+  // box exactly as wide as the PNG's text wraps the longest lines once more ("(2)" in box 4)
+  slide.addText(items, { ...font, x: X(b.x + m.pad), y: Y(yTop), w: X(b.w - m.pad - 0.25 * m.rpad),
     h: X(yTop - (b.top - b.h) - 0.4 * m.bottom), fontSize: m.body, color: INK, valign: "top", lineSpacing: m.step * PT,
     isTextBox: true, objectName: `${name} text` });
 }
